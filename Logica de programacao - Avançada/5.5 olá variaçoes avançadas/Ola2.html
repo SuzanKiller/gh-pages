@@ -1,0 +1,32 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<script>
+var idioma = prompt("Selecione seu IDIOMA")
+var variacao = prompt ("Digite a variação")
+
+//pt-br = Olá
+//pt-pt = Olá
+
+//en-us = Hi
+//en-gb = Hello
+
+// (idioma == "pt") && (variacao == "br" || varicao == "pt")
+
+    if ((idioma == "pt") && ( variacao == "br" || variacao == "pt")){
+    alert("Olá")
+} else if ((idioma == "en" ) && ( variacao == "us" )){ 
+    alert("Hi")
+} else if ((idioma == "en" ) && ( variacao == "gb" )){ 
+    alert("hello")
+}else if (idioma == "fr")  {
+    alert("Salut")
+} else if (idioma == "es" ) {
+    alert("Hola")
+} else {
+    alert("Idioma e/ou variação não reconhecido(s).")
+}
+    alert("Execução continua...")
+
+</script>
+
+</html>
